@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMS | Create Account</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="login-container">
+
+        <div class="login-left">
+            <div class="brand">
+                <span class="brand-icon">E</span>
+                <span>EMS Portal</span>
+            </div>
+
+            <div class="welcome-text">
+                <h1>Build a smarter workplace.</h1>
+                <p>
+                    Create your account and start managing
+                    your employee operations efficiently.
+                </p>
+            </div>
+
+            <div class="footer-text">
+                Employee Management System © 2026
+            </div>
+        </div>
+
+        <div class="login-right">
+            <div class="login-box">
+
+                <h2>Create Account</h2>
+                <p class="subtitle">
+                    Register to access the EMS portal.
+                </p>
+
+                <form id="registerForm">
+
+                    <div class="form-group">
+                        <label for="username">Full Name</label>
+                        <input type="text" id="username"
+                            placeholder="Enter your name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email"
+                            placeholder="Enter your email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password"
+                            placeholder="Create a password"
+                            minlength="6" required>
+                    </div>
+
+                    <button type="submit" id="registerBtn">
+                        Create Account
+                    </button>
+
+                    <p id="message"></p>
+
+                </form>
+
+                <p class="register-link">
+                    Already have an account?
+                    <a href="index.html">Sign In</a>
+                </p>
+
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

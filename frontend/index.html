@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMS | Employee Management System</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="login-container">
+
+        <div class="login-left">
+            <div class="brand">
+                <span class="brand-icon">E</span>
+                <span>EMS Portal</span>
+            </div>
+
+            <div class="welcome-text">
+                <h1>Manage your workforce smarter.</h1>
+                <p>
+                    A centralized platform to manage employees,
+                    streamline operations and improve productivity.
+                </p>
+            </div>
+
+            <div class="footer-text">
+                Employee Management System © 2026
+            </div>
+        </div>
+
+        <div class="login-right">
+
+            <div class="login-box">
+
+                <h2>Welcome Back!</h2>
+                <p class="subtitle">Login to access your dashboard.</p>
+
+                <form id="loginForm">
+
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input
+                            type="email"
+                            id="email"
+                            placeholder="Enter your email"
+                            required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input
+                            type="password"
+                            id="password"
+                            placeholder="Enter your password"
+                            required>
+                    </div>
+
+                    <button type="submit" id="loginBtn">
+                        Sign In
+                    </button>
+
+                    <p id="message"></p>
+
+                </form>
+
+                <p class="register-link">
+                    Don't have an account?
+                    <a href="register.html">Create Account</a>
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
